@@ -1,0 +1,106 @@
+
+body, html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+    z-index: 1;
+}
+.overlay{
+  z-index: 2;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+form {
+  position: absolute;
+  margin: 0 auto;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 500px;
+  max-height: 600px;
+  background: rgba(255, 255, 255, 1);
+}
+@media  (min-width: 1088px){
+  form{
+    left: 77%;
+  }
+}
+input, textarea{
+  border-style: inset;
+
+  width: 100%;
+}
+
+
+form label {
+  display: block;
+  width: 100%;
+
+}
+
+form label span  {
+  display: block;
+  padding: 10px;
+}
+
+.nombrecompleto label {
+
+  float: left;
+}
+
+.boton{
+  font-size: 10px;
+  padding: 10px;
+  background-color: #fff;
+  opacity: .5;
+
+}
+.boton:hover {
+  font-size: 10px;
+  padding: 10px;
+  background-color: #fff;
+  opacity: 1;
+}
+.e-mailcompleto label{
+
+    float: left;
+
+}
+.direccioncompleta label{
+  float: left;
+}
+
+.telefonos label{
+  float: left;
+}
+
+img{
+width: 10%;
+left: 50%;
+position: relative;
+transform: translateX(-50%);
+
+}
+div{
+
+  text-align: center;
+  font-style: italic;
+}

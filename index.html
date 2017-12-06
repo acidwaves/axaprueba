@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <div class="container">
+      <video  autoplay poster="posterimage.jpg" muted loop>
+           <source src="video.mp4" type="video/mp4">
+      </video>
+      <div class="overlay">
+
+
+
+
+        <form action="https://formspree.io/contacto@acidwaves.com"
+                                       method="POST">
+
+    <div class="nombrecompleto">
+                <label><span>Nombres</span><input type="text" autofocus name="nombre"></label>
+                <label><span>Apellidos</span><input type="text" autofocus name="nombre"></label>
+   </div>
+    <div class="e-mailcompleto">
+               <label><span>E-maill</span><input type="email" autocomplete="email"name="correo"></label>
+               <label><span>Confirmar E-mail</span><input type="email" autocomplete="email" name="confirmacion"></label>
+   </div>
+   <div class="direccioncompleta">
+                <label><span>Direccion</span><input type="text" autocomplete="street-address" name="direccion"></label>
+                <label><span>Estado</span><input type="text" autocomplete="country-name" name="estado"></label>
+   </div>
+   <div class="telefonos">
+              <label><span>Telefono</span><input type="tel" autocomplete="tel"name="telefono"></label>
+            <label><span>Celular</span><input type="tel" autocomplete="mobile" name="celular"></label>
+   </div>
+   <input class="boton"type="submit" value="Ingresar">
+</form>
+</div>
+      </div>
+    </div>
+
+  </body>
+</html>
